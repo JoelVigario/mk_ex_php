@@ -4,35 +4,28 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="conpatiple" content="IE-edge">
-        <title>Trocando valores</title>
+        <title>O seu nome</title>
         <link rel="stylesheet" href="../../estiloGeral/geral.css"/>
         <link rel="stylesheet" href="../../estiloGeral/form.css"/>
     </head>
     <body>
         <?php 
-            $x = $_POST['x'];
-            $y = $_POST['y'];
-            
-            $aux = $x;
-            $x = $y;
-            $y = $aux;
+            $nome = $_POST['nome'];
         ?>
         
         <main class="corpo">
-            <h1>Trocando valores</h1>
+            <h1>O seu Nome</h1>
             
             <form action="index.php" method="post">
-                <label for="x">Valor de <strong>X</strong>:</label>
-                <input type="number" id="x" name="x" step="1" required value="<?= $x?>">
-                <label for="y">Valor de <strong>Y</strong>:</label>
-                <input type="number" id="y" name="y" step="1" required value="<?= $y?>">
-                <input type="submit" value="Trocar">
+                <label for="nome">Digite o seu primeiro nome:</label>
+                <input type="text" id="nome" name="nome" required maxlength="16" value="<?= $nome?>">
+                <input type="submit" value="Click aqui!">
             </form>
             
             <article class="resultado">
                 <p>
                     <?php 
-                        echo "Valor de X: $x <br>Valor de Y: $y";
+                        echo "Olá <strong>$nome</strong>, seja Bem-Vindo!";
                     ?>
                 </p>
             </article>
