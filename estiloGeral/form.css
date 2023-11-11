@@ -1,0 +1,33 @@
+/* 
+    Created on : 11/11/2023, 11:57:23
+    Author     : joel_vigario
+*/
+
+@charset "utf-8";
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: auto;
+}
+
+input[type=number], input[type=text], input[type=submit], input[type=date], label {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: var(--azul-escuro0);
+    color: white;
+    margin-top: 10px;
+    font-size: 1.2em;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-color: var(--azul-escuro1);
+}
