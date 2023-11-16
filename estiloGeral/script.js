@@ -5,6 +5,7 @@ if (input.value == '' || input.value === null) {
     res.style.display = 'none';
 } else {
     res.style.display = 'block';
+    res.innerHTML += '<a href="../../" class="btn">Voltar</a>'
 }
 
 

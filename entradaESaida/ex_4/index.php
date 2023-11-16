@@ -19,15 +19,15 @@
             <input type="number" name="$_val" id="$_val" required step="1" value="<?= $_val?>">
             <input type="submit" value="Calcular">
         </form>
-    </main>
 
-    <article class="resultado">
-        <?php 
-            if (!empty($_val)) {
-                printf("<p class='res'>O Antecessor de $_val é <span class='amrl'>%d</span></p>", --$_val);
-            }
-        ?>
-    </article>
+        <article class="resultado">
+            <?php 
+                if (!empty($_val)) {
+                    printf("<p class='res'>O Antecessor de $_val é <span class='amrl'>%d</span></p>", --$_val);
+                }
+            ?>
+        </article>
+    </main>
     
     <script src="../../estiloGeral/script.js"></script>
 </body>

@@ -23,17 +23,17 @@
             <input type="number" name="n2" id="n2" required step="1" value="<?= $y?>">
             <input type="submit" value="Multiplicar">
         </form>
-    </main>
 
-    <article class="resultado">
-        <p class="res">
-            <?php 
-                if (!empty($x) || !empty($y)) {
-                    echo "O produto entre $x e $y é " . $x * $y;
-                }
-            ?>
-        </p>
-    </article>
+        <article class="resultado">
+            <p class="res">
+                <?php 
+                    if (!empty($x) || !empty($y)) {
+                        echo "O produto entre $x e $y é " . $x * $y;
+                    }
+                ?>
+            </p>
+        </article>
+    </main>
 
     <script src="../../estiloGeral/script.js"></script>
 </body>

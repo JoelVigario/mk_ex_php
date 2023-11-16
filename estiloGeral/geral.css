@@ -40,6 +40,7 @@ article.resultado {
     margin: 20px auto;
     padding: 10px;
     text-align: center;
+    border: 1px solid #78a061;
     border-radius: 7px;
 }
 
@@ -50,8 +51,21 @@ article.resultado {
     font-weight: bold;
 }
 
-.amrl {
-    color: #d31;
+.btn {
+    display: block;
+    background-image: linear-gradient(180deg, #237923, #1d561d);
+    color: white;
+    padding: 7px;
+    margin: 30px 7px 7px 7px;
+    border: 1px solid #83af69;
+    border-radius: 7px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #0b230b;
 }
 
 ::-webkit-scrollbar {

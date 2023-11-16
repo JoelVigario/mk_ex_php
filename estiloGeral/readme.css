@@ -34,6 +34,10 @@ ul.lista li {
     border-radius: 7px;
 }
 
+ul.lista li:hover {
+    background-image: linear-gradient(-90deg, var(--azul-escuro0), darkcyan);
+}
+
 ul.lista a {
     display: inline-block;
     color: white;
@@ -43,6 +47,5 @@ ul.lista a {
 
 ul.lista a:hover {
     color: var(--creme);
-    text-decoration: underline;
 }
 

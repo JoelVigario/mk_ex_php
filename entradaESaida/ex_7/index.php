@@ -28,7 +28,9 @@
             <article class="resultado">
                 <p>
                     <?php 
-                        printf("O resto da divisão de $n1 por $n2 é %d", $n1 % $n2);
+                        if (!empty($n1)) {
+                            printf("O resto da divisão de $n1 por $n2 é %d", $n1 % $n2);
+                        }
                     ?>
                 </p>
             </article>
