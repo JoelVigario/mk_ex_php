@@ -27,8 +27,8 @@ ul.lista {
 
 ul.lista li {
     list-style: none;
-    background-color: var(--azul-escuro0);
-    text-align: center;
+    background-image: linear-gradient(90deg, var(--azul-escuro0), darkcyan);
+    text-align: left;
     padding: 10px;
     margin: 10px;
     border-radius: 7px;
