@@ -4,7 +4,9 @@
     --azul-escuro0: #060658;
     --azul-escuro1: #05056f;
     --verde-escuro0: #04404b;
+    --verde-escuro1: #1d561d;
     --verde: green;
+    --verde-claro: #bafa96;
     --creme: #fbe9ae;
 }
 
@@ -76,6 +78,6 @@ article.resultado {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--creme);
+    background-color: var(--verde-claro);
     border-radius: 7px;
 }

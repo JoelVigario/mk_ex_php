@@ -19,7 +19,7 @@ input {
     border: 1px solid black;
 }
 
-input[type=number], input[type=text], input[type=submit], input[type=date], input[type=tel], label {
+input[type=number], input[type=text], input[type=submit], input[type=date], input[type=tel], label, select, input[type=month]  {
     width: 100%;
     padding: 5px;
     margin-top: 5px;
@@ -32,7 +32,7 @@ label {
 }
 
 input[type=submit] {
-    background-color: var(--azul-escuro0);
+    background-color: var(--verde-escuro1);
     color: white;
     margin-top: 10px;
     font-size: 1.2em;
@@ -41,7 +41,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: var(--azul-escuro1);
+    background-color: #237923;
 }
 
 textarea {

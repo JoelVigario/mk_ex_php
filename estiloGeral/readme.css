@@ -29,7 +29,6 @@ ul.lista li {
     list-style: none;
     background-image: linear-gradient(90deg, var(--azul-escuro0), darkcyan);
     text-align: left;
-    padding: 10px;
     margin: 10px;
     border-radius: 7px;
 }
@@ -43,6 +42,7 @@ ul.lista a {
     color: white;
     width: 100%;
     height: 100%;
+    padding: 10px;
 }
 
 ul.lista a:hover {
