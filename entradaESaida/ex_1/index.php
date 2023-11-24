@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 1</title>
+    <title>Seja bem-vindo</title>
     <link rel="stylesheet" href="../../estiloGeral/geral.css">
     
      <style>
+         body {
+             background-color: #000;
+         }
+         
         h1 {
-            background-color: #e3f20bc5;
-            padding: 5px;
+            position: absolute;
+            color: #e3f20bc5;
+            padding: 50px 10px;
+            
             text-align: center;
+            max-width: 600px;
+            line-height: 100%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
      </style>
 </head>
